@@ -13,10 +13,12 @@ if you check previous item or note
 
 ```python
 {% if page_obj.has_previous %}
-    <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-    </a>
+    <li class="page-item">
+        <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+    </li>
 {% endif %}
 ```
 
@@ -31,4 +33,12 @@ if check next of note then
         </a>
     </li>
 {% endif %}
+```
+
+
+
+### INR symbol
+
+```HTML
+&#8377; or &#x20B9; <!--Put in html file   -->
 ```
