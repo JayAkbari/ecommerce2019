@@ -2,7 +2,6 @@
 absl-py
 alabaster
 amqp
-apturl
 asn1crypto
 astor
 astroid==2.1.0
