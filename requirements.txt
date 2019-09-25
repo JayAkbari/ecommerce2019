@@ -145,7 +145,6 @@ pycrypto==2.6.1
 pycups==1.9.73
 pydot==1.4.1
 Pygments==2.4.0
-pygobject==3.26.1
 PyJWT==1.7.1
 pylint==2.2.2
 pymacaroons==0.13.0
