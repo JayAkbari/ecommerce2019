@@ -104,7 +104,6 @@ oauthlib==3.0.1
 ofxparse==0.20
 olefile==0.45.1
 packaging==19.0
-pandas==0.24.2
 pandocfilters==1.4.2
 parso==0.3.4
 passlib==1.7.1
