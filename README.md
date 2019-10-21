@@ -1,5 +1,7 @@
 # ClassBase View
 
+this python code
+ 
 if pass pagination then it's easy in classbase view
 
 in view.py put
